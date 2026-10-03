@@ -1,0 +1,112 @@
+# Copyright (C) 2025 hupe13
+# This file is distributed under the GPL v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Extensions for Leaflet Map Github Version 4.4-250422\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/extensions-"
+"leaflet-map-github\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-03 16:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: extensions-leaflet-map\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: leafext/choropleth.php:25
+msgid ""
+"a comma separated list of colors for scale - include as many as you like"
+msgstr ""
+
+#. Name of the plugin
+msgid "Choropleth for Leaflet Map"
+msgstr ""
+
+#. Description of the plugin
+msgid "Choropleth functions"
+msgstr ""
+
+#: leafext/admin-choropleth.php:60
+msgid "Default"
+msgstr ""
+
+#: leafext/admin-choropleth.php:61
+msgid "Description"
+msgstr ""
+
+#: leafext/admin-choropleth.php:77
+msgid "equidistant: divide the classes into equal groups."
+msgstr ""
+
+#: leafext/admin-choropleth.php:62
+msgid "Example"
+msgstr ""
+
+#: leafext/choropleth.php:30
+msgid "get a tooltip on mouse over"
+msgstr ""
+
+#. Author of the plugin
+msgid "hupe13"
+msgstr ""
+
+#: leafext/admin-choropleth.php:78
+msgid "k-means: each standard deviation becomes a class."
+msgstr ""
+
+#: leafext/choropleth.php:27
+msgid "number of breaks or steps in range"
+msgstr ""
+
+#: leafext/choropleth.php:26
+msgid "opacity of the colors in scale"
+msgstr ""
+
+#: leafext/admin-choropleth.php:55
+msgid "Options"
+msgstr ""
+
+#: leafext/admin-choropleth.php:37
+msgid "Popup Content"
+msgstr ""
+
+#: leafext/choropleth.php:28
+msgid "q for quantile, e for equidistant, k for k-means"
+msgstr ""
+
+#: leafext/admin-choropleth.php:76
+msgid "quantile maps try to arrange groups so they have the same quantity."
+msgstr ""
+
+#: leafext/choropleth.php:29
+msgid "show legend"
+msgstr ""
+
+#. %s is ashortcode name.
+#: leafext/admin-choropleth.php:40
+#, php-format
+msgid ""
+"Specify the popup content in %s shortcode: To add feature properties to the "
+"popups, use the inner content and curly brackets to substitute the values:"
+msgstr ""
+
+#. %s is ashortcode name.
+#: leafext/admin-choropleth.php:27
+#, php-format
+msgid "The shortcode has changed!! Do not forget %s!"
+msgstr ""
+
+#: leafext/choropleth.php:24
+msgid "which property in the features to use"
+msgstr ""
+
+#. %s is an example code.
+#: leafext/admin-choropleth.php:51
+#, php-format
+msgid "You can specify %s as you like."
+msgstr ""

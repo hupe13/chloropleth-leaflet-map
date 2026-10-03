@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-03 16:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: de_DE\n"
+"Project-Id-Version: Plugins - Extensions for Leaflet Map - Development "
+"(trunk)\n"
+"Language-Team: Deutsch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-12 16:42+0000\n"
+"Last-Translator: hupe13\n"
+"X-Loco-Version: 2.8.9; wp-7.1.2; php-8.4.24-nmm1"
+
+#: leafext/choropleth.php:25
+msgid ""
+"a comma separated list of colors for scale - include as many as you like"
+msgstr ""
+"eine kommagetrennte Liste von Farben für die Skala - füge so viele ein, wie "
+"du möchtest"
+
+#. Name of the plugin
+#| msgid "Choroplet for Leaflet Map"
+msgid "Choropleth for Leaflet Map"
+msgstr "Choroplet für Leaflet Map"
+
+#. Description of the plugin
+#| msgid "Choroplet functions"
+msgid "Choropleth functions"
+msgstr "Choroplet Funktionen"
+
+#: leafext/admin-choropleth.php:60
+msgid "Default"
+msgstr "Standard"
+
+#: leafext/admin-choropleth.php:61
+msgid "Description"
+msgstr "Beschreibung"
+
+#: leafext/admin-choropleth.php:77
+msgid "equidistant: divide the classes into equal groups."
+msgstr "Äquidistant: Die Klassen werden in gleiche Gruppen aufgeteilt."
+
+#: leafext/admin-choropleth.php:62
+msgid "Example"
+msgstr "Beispiel"
+
+#: leafext/choropleth.php:30
+msgid "get a tooltip on mouse over"
+msgstr "Tooltip bei Mauszeigerkontakt anzeigen"
+
+#. Author of the plugin
+msgid "hupe13"
+msgstr "hupe13"
+
+#: leafext/admin-choropleth.php:78
+msgid "k-means: each standard deviation becomes a class."
+msgstr "k-means: jede Standardabweichung wird zu einer Klasse."
+
+#: leafext/choropleth.php:27
+msgid "number of breaks or steps in range"
+msgstr "Zahl der Abstände oder Schritte im Bereich"
+
+#: leafext/choropleth.php:26
+msgid "opacity of the colors in scale"
+msgstr "Transparenz der Farben in der Skala"
+
+#: leafext/admin-choropleth.php:55
+msgid "Options"
+msgstr "Optionen"
+
+#: leafext/admin-choropleth.php:37
+msgid "Popup Content"
+msgstr "Popup-Inhalt"
+
+#: leafext/choropleth.php:28
+msgid "q for quantile, e for equidistant, k for k-means"
+msgstr "q für quantile, e für equidistant, k für k-means"
+
+#: leafext/admin-choropleth.php:76
+msgid "quantile maps try to arrange groups so they have the same quantity."
+msgstr ""
+"Bei Quantilkarten wird versucht, die Gruppen so anzuordnen, dass sie die "
+"gleiche Menge aufweisen."
+
+#: leafext/choropleth.php:29
+msgid "show legend"
+msgstr "Legende anzeigen"
+
+#. %s is ashortcode name.
+#: leafext/admin-choropleth.php:40
+#, php-format
+#| msgid ""
+#| "Use it like the popup content for Geojsons in Leaflet Map: To add feature "
+#| "properties to the popups, use the inner content and curly brackets to "
+#| "substitute the values:"
+msgid ""
+"Specify the popup content in %s shortcode: To add feature properties to the "
+"popups, use the inner content and curly brackets to substitute the values:"
+msgstr ""
+"Verwende es wie den Popup-Inhalt im %s Shortcode: Um Feature-Eigenschaften "
+"zu den Popups hinzuzufügen, verwende den inneren Inhalt und geschweifte "
+"Klammern, um die Werte zu ersetzen:"
+
+#. %s is ashortcode name.
+#: leafext/admin-choropleth.php:27
+#, php-format
+msgid "The shortcode has changed!! Do not forget %s!"
+msgstr "Der Shortcode hat sich geändert! Vergiss %s nicht!"
+
+#: leafext/choropleth.php:24
+msgid "which property in the features to use"
+msgstr "welche Eigenschaft in den Merkmalen zu verwenden ist"
+
+#. %s is an example code.
+#: leafext/admin-choropleth.php:51
+#, php-format
+msgid "You can specify %s as you like."
+msgstr "Du kannst %s angeben wie du möchtest."
