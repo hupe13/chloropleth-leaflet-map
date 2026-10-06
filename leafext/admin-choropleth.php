@@ -2,7 +2,7 @@
 /**
  * Admin functions for choropleth shortcode
  *
- * @package Extensions for Leaflet Map
+ * @package choropleth-leaflet-map
  */
 
 /*
@@ -20,7 +20,6 @@ defined( 'ABSPATH' ) || die();
 
 function leafext_choropleth_help() {
 	$codestyle = ' class="language-coffeescript"';
-
 	$text  = '<h2>Shortcode</h2>';
 	$text .= '<p>' . wp_sprintf(
 		/* translators: %s is ashortcode name. */

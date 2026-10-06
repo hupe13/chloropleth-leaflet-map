@@ -3,7 +3,7 @@
 Contributors: hupe13
 Tags: leaflet, choropleth
 Tested up to: 7.1
-Stable tag: 1.1
+Stable tag: 261006
 Requires at least: 7.1
 Requires PHP: 8.2
 License: GPLv2 or later

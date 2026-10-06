@@ -1,14 +1,14 @@
 /**
  * Javascript function for Shortcode choropleth
  *
- * @package leafext-choropleth
+ * @package choropleth-leaflet-map
  */
 
 /**
  * Create Javascript code for choropleth.
  */
 
-function leafext_choropleth_js(map,att_valueProperty,att_scale,att_steps,att_mode,att_legend,att_hover,att_fillOpacity) {
+function leafext_choropleth_js(map,att_valueProperty,att_scale,att_steps,att_mode,att_legend,att_fillOpacity) {
 	map.eachLayer(
 		function (layer) {
 			// console.log(layer.options.type);
@@ -53,58 +53,7 @@ function leafext_choropleth_js(map,att_valueProperty,att_scale,att_steps,att_mod
 												}
 											);
 										}
-									),
-
-									layer.on(
-										"mouseover",
-										function (e) {
-											if (att_hover) {
-												if ( layer.getPopup() ) {
-													// console.log("popup defined");
-													if (layer.getPopup().isOpen()) {
-														// console.log("mouseover open "+layer.getPopup().isOpen());
-														layer.unbindTooltip();
-													} else {
-														// console.log("need tooltip");
-														var content = layer.getPopup().getContent();
-														layer.bindTooltip( content );
-													}
-												}
-											}
-										}
-									),
-
-									layer.on(
-										"mousemove",
-										function (e) {
-											if (att_hover) {
-												if ( layer.getPopup() ) {
-													if (layer.getPopup().isOpen()) {
-														// console.log("mousemove open "+layer.getPopup().isOpen());
-														layer.unbindTooltip();
-													} else {
-														// console.log("mousemove close "+layer.getPopup().isOpen());
-														map.closePopup();
-														layer.openTooltip( e.latlng );
-													}
-												}
-											}
-										}
-									),
-
-									layer.on(
-										"click",
-										function (e) {
-											if (att_hover) {
-												if ( layer.getPopup() ) {
-													if (layer.getPopup().isOpen()) {
-														layer.unbindTooltip();
-													}
-												}
-											}
-										}
 									)
-
 								}
 							}
 						); // choropleth
