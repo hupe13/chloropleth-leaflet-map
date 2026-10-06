@@ -37,7 +37,6 @@ You can specify `Property1 {property1}<br>{property2} Property2` as you like.
 <tr><td style="border:1px solid #195b7a">steps</td><td style="border:1px solid #195b7a">5</td><td style="border:1px solid #195b7a">number of breaks or steps in range</td><td style="border:1px solid #195b7a">5</td></tr>
 <tr><td style="border:1px solid #195b7a">mode</td><td style="border:1px solid #195b7a">q</td><td style="border:1px solid #195b7a">q for quantile, e for equidistant, k for k-means</td><td style="border:1px solid #195b7a">q</td></tr>
 <tr><td style="border:1px solid #195b7a">legend</td><td style="border:1px solid #195b7a">1</td><td style="border:1px solid #195b7a">show legend</td><td style="border:1px solid #195b7a">!legend</td></tr>
-<tr><td style="border:1px solid #195b7a">hover</td><td style="border:1px solid #195b7a">1</td><td style="border:1px solid #195b7a">get a tooltip on mouse over</td><td style="border:1px solid #195b7a">!hover</td></tr>
 </table></figure></div>
 
 ### mode
