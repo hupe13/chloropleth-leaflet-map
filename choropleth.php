@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Choropleth for Leaflet Map
  * Description:       Choropleth functions
- * Version:           1.0
+ * Version:           1.1
  * Requires PHP:      8.2
  * Requires Plugins:  leaflet-map, extensions-leaflet-map
  * Author:            hupe13
@@ -24,19 +24,11 @@ require_once __DIR__ . '/leafext/admin-choropleth.php';
 /**
  * For translating
  */
-function leafext_choropleth_load_textdomain() {
-	load_plugin_textdomain( 'leaflet-choropleth', false, __DIR__ . '/lang' );
-}
-add_action( 'plugins_loaded', 'leafext_choropleth_load_textdomain' );
-
-/**
- * For translating if both plugins (WP and Github) exist.
- */
 function leafext_choropleth_extra_textdomain( $mofile, $domain ) {
 
-	if ( 'leaflet-choropleth' === $domain ) {
-		if ( file_exists( CHOROPLETH_DIR . '/lang/leaflet-choropleth-' . get_locale() . '.mo' ) ) {
-			$mofile = CHOROPLETH_DIR . '/lang/leaflet-choropleth-' . get_locale() . '.mo';
+	if ( 'choropleth-leaflet-map' === $domain ) {
+		if ( file_exists( CHOROPLETH_DIR . '/lang/choropleth-leaflet-map-' . get_locale() . '.mo' ) ) {
+			$mofile = CHOROPLETH_DIR . '/lang/choropleth-leaflet-map-' . get_locale() . '.mo';
 		}
 	}
 	return $mofile;

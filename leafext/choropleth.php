@@ -21,13 +21,13 @@ defined( 'ABSPATH' ) || die();
 // Parameter and Values
 function leafext_choropleth_params() {
 	$params = array(
-		array( 'valueproperty', __( 'which property in the features to use', 'chloropleth-leaflet-map' ), '', 'property' ),
-		array( 'scale', __( 'a comma separated list of colors for scale - include as many as you like', 'chloropleth-leaflet-map' ), 'white, red', '"white, red, blue"' ),
-		array( 'fillopacity', __( 'opacity of the colors in scale', 'chloropleth-leaflet-map' ), '0.8', '0.8' ),
-		array( 'steps', __( 'number of breaks or steps in range', 'chloropleth-leaflet-map' ), '5', '5' ),
-		array( 'mode', __( 'q for quantile, e for equidistant, k for k-means', 'chloropleth-leaflet-map' ), 'q', 'q' ),
-		array( 'legend', __( 'show legend', 'chloropleth-leaflet-map' ), true, '!legend' ),
-		array( 'hover', __( 'get a tooltip on mouse over', 'chloropleth-leaflet-map' ), true, '!hover' ),
+		array( 'valueproperty', __( 'which property in the features to use', 'choropleth-leaflet-map' ), '', 'property' ),
+		array( 'scale', __( 'a comma separated list of colors for scale - include as many as you like', 'choropleth-leaflet-map' ), 'white, red', '"white, red, blue"' ),
+		array( 'fillopacity', __( 'opacity of the colors in scale', 'choropleth-leaflet-map' ), '0.8', '0.8' ),
+		array( 'steps', __( 'number of breaks or steps in range', 'choropleth-leaflet-map' ), '5', '5' ),
+		array( 'mode', __( 'q for quantile, e for equidistant, k for k-means', 'choropleth-leaflet-map' ), 'q', 'q' ),
+		array( 'legend', __( 'show legend', 'choropleth-leaflet-map' ), true, '!legend' ),
+		// array( 'hover', __( 'get a tooltip on mouse over', 'choropleth-leaflet-map' ), true, '!hover' ),
 	);
 	return $params;
 }

@@ -24,7 +24,7 @@ function leafext_choropleth_help() {
 	$text  = '<h2>Shortcode</h2>';
 	$text .= '<p>' . wp_sprintf(
 		/* translators: %s is ashortcode name. */
-		__( 'The shortcode has changed!! Do not forget %s!', 'chloropleth-leaflet-map' ),
+		__( 'The shortcode has changed!! Do not forget %s, if you want get a tooltip on mouse over.', 'choropleth-leaflet-map' ),
 		'<code ' . $codestyle . '>hoverlap</code>'
 	) . '</p>';
 	$text .= '<p><pre' . $codestyle . '><code' . $codestyle . '>&#091;leaflet-map fitbounds ....]' . "\n";
@@ -34,12 +34,12 @@ function leafext_choropleth_help() {
 &#091;zoomhomemap]';
 	$text .= '</code></pre></p>';
 
-	$text .= '<h2>' . __( 'Popup Content', 'chloropleth-leaflet-map' ) . '</h2><p>';
+	$text .= '<h2>' . __( 'Popup Content', 'choropleth-leaflet-map' ) . '</h2><p>';
 	$text .= '</p><p>' . wp_sprintf(
 		/* translators: %s is ashortcode name. */
 		__(
 			'Specify the popup content in %s shortcode: To add feature properties to the popups, use the inner content and curly brackets to substitute the values:',
-			'chloropleth-leaflet-map'
+			'choropleth-leaflet-map'
 		),
 		'<code ' . $codestyle . '>leaflet-geojson</code>'
 	);
@@ -48,18 +48,18 @@ function leafext_choropleth_help() {
 	. '</p>';
 	$text .= wp_sprintf(
 		/* translators: %s is an example code. */
-		__( 'You can specify %s as you like.', 'chloropleth-leaflet-map' ),
+		__( 'You can specify %s as you like.', 'choropleth-leaflet-map' ),
 		'<code ' . $codestyle . '>Property1 {property1}&lt;br>{property2} Property2</code>'
 	);
 
-	$text   .= '<h2>' . __( 'Options', 'chloropleth-leaflet-map' ) . '</h2>';
+	$text   .= '<h2>' . __( 'Options', 'choropleth-leaflet-map' ) . '</h2>';
 	$options = leafext_choropleth_params();
 	$new     = array();
 	$new[]   = array(
 		'param'   => '<strong>Option</strong>',
-		'default' => '<strong>' . __( 'Default', 'chloropleth-leaflet-map' ) . '</strong>',
-		'desc'    => '<strong>' . __( 'Description', 'chloropleth-leaflet-map' ) . '</strong>',
-		'example' => '<strong>' . __( 'Example', 'chloropleth-leaflet-map' ) . '</strong>',
+		'default' => '<strong>' . __( 'Default', 'choropleth-leaflet-map' ) . '</strong>',
+		'desc'    => '<strong>' . __( 'Description', 'choropleth-leaflet-map' ) . '</strong>',
+		'example' => '<strong>' . __( 'Example', 'choropleth-leaflet-map' ) . '</strong>',
 	);
 	foreach ( $options as $option ) {
 		$new[] = array(
@@ -73,9 +73,9 @@ function leafext_choropleth_help() {
 
 	$text .= '<h3>mode</h3>
   <p><ul>
-  <li> ' . __( 'quantile maps try to arrange groups so they have the same quantity.', 'chloropleth-leaflet-map' ) . '</li>
-  <li> ' . __( 'equidistant: divide the classes into equal groups.', 'chloropleth-leaflet-map' ) . '</li>
-  <li> ' . __( 'k-means: each standard deviation becomes a class.', 'chloropleth-leaflet-map' ) . '</li>
+  <li> ' . __( 'quantile maps try to arrange groups so they have the same quantity.', 'choropleth-leaflet-map' ) . '</li>
+  <li> ' . __( 'equidistant: divide the classes into equal groups.', 'choropleth-leaflet-map' ) . '</li>
+  <li> ' . __( 'k-means: each standard deviation becomes a class.', 'choropleth-leaflet-map' ) . '</li>
   </ul></p>';
 
 	return $text;

@@ -12,7 +12,7 @@ This plugin needs Extensions for Leaflet Map version > 5.4 or its Github version
 
 ### Shortcode
 
-The shortcode has changed!! Do not forget <code>hoverlap</code>!
+The shortcode has changed!! Do not forget <code>hoverlap</code>, if you want get a tooltip on mouse over.
 
     [leaflet-map fitbounds ....]
     [leaflet-geojson src=https://domain.tld/path/to/file.geojson]Property1 {property1}<br>{property2} Property2[/leaflet-geojson]

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-03 16:03+0000\n"
+"PO-Revision-Date: 2026-10-06 16:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,12 +25,12 @@ msgstr ""
 #. Name of the plugin
 #| msgid "Choroplet for Leaflet Map"
 msgid "Choropleth for Leaflet Map"
-msgstr "Choroplet für Leaflet Map"
+msgstr "Choropleth für Leaflet Map"
 
 #. Description of the plugin
 #| msgid "Choroplet functions"
 msgid "Choropleth functions"
-msgstr "Choroplet Funktionen"
+msgstr "Choropleth Funktionen"
 
 #: leafext/admin-choropleth.php:60
 msgid "Default"
@@ -47,10 +47,6 @@ msgstr "Äquidistant: Die Klassen werden in gleiche Gruppen aufgeteilt."
 #: leafext/admin-choropleth.php:62
 msgid "Example"
 msgstr "Beispiel"
-
-#: leafext/choropleth.php:30
-msgid "get a tooltip on mouse over"
-msgstr "Tooltip bei Mauszeigerkontakt anzeigen"
 
 #. Author of the plugin
 msgid "hupe13"
@@ -108,8 +104,12 @@ msgstr ""
 #. %s is ashortcode name.
 #: leafext/admin-choropleth.php:27
 #, php-format
-msgid "The shortcode has changed!! Do not forget %s!"
-msgstr "Der Shortcode hat sich geändert! Vergiss %s nicht!"
+msgid ""
+"The shortcode has changed!! Do not forget %s, if you want get a tooltip on "
+"mouse over."
+msgstr ""
+"Der Shortcode hat sich geändert!! Vergiss %s nicht, wenn du beim "
+"Darüberfahren mit der Maus einen Tooltip anzeigen lassen möchtest."
 
 #: leafext/choropleth.php:24
 msgid "which property in the features to use"
